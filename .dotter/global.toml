@@ -1,0 +1,15 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+fish = "~/.config/fish/"
+fontconfig = "~/.config/fontconfig/"
+starship = "~/.config/starship.toml"
+vscode = "~/.config/code-flags.conf"
+
+[default.variables]
+
+[settings]
+default_target_type = "automatic"

@@ -60,6 +60,8 @@ fish_add_path $HOME/development/flutter/bin
 set -gx JAVA_HOME /opt/android-studio/jbr
 set -gx ANDROID_HOME "$HOME/Android/Sdk"
 set -gx NDK_HOME "$ANDROID_HOME/ndk/"(uu-ls -1 $ANDROID_HOME/ndk)
+## env
+set -gx GDK_DPI_SCALE 1.5
 set -gx WEBKIT_DISABLE_DMABUF_RENDERER 1
 set -gx WINE_DRIVER wayland
 # set EDITOR nvim

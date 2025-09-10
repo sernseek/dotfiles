@@ -4,11 +4,10 @@
 depends = []
 
 [default.files]
-fish = "~/.config/fish/"
+fishuser = "~/.config/fish/user.fish"
 fontconfig = "~/.config/fontconfig/"
-starship = "~/.config/starship.toml"
 vscode = "~/.config/code-flags.conf"
-
+hypruser = "~/.config/hypr/userprefs.conf"
 [default.variables]
 
 [settings]
